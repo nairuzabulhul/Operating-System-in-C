@@ -1,0 +1,11 @@
+To count the processors that going to be created
+
+
+2^n
+
+n = the number of fork()s in the program + the main processor
+
+
+In the example of fork.c , the program has 5 forks + the main process, we get 6
+
+2^6 = 64
